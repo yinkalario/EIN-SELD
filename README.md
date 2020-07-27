@@ -1,2 +1,2 @@
 # Event-Independent Network for Polyphonic Sound Event Localization and Detection
-Code will be uploaded soon.
+Sorry for the delay. The code will be uploaded in the near future.
