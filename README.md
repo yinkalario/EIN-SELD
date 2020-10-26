@@ -1,7 +1,4 @@
 # Event-Independent Networks for Polyphonic Sound Event Localization and Detection
-
-**In building, will be submitted today or tomorrow.**
-
 Event-Independent Networks (EIN) for Polyphonic Sound Event Localization and Detection (SELD)
 
 from Centre for Vision, Speech and Signal Processing, University of Surrey.
@@ -30,7 +27,7 @@ This is a Pytorch implementation of Event-Independent Networks for Polyphonic SE
 Event-Independent Networks for Polyphonic SELD uses a trackwise output format and multi-task learning (MTL) of a soft parameter-sharing scheme. For more information, please read papers [*An improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*](https://arxiv.org/abs/2010.00140), and [*Event-Independent Network for Polyphonic Sound Event Localization and Detection*](https://arxiv.org/abs/2010.00140). [How to cite](#Citing) is here.
 
 The features of this method are:
-- It uses a trackwise output for mat to detect different sound events of the same type but with different DoAs.
+- It uses a trackwise output format to detect different sound events of the same type but with different DoAs.
 - It uses a permutation-invaiant training (PIT) to solve the track permutation problem introducted by trackwise output format.
 - It uses multi-head self-attention (MHSA) mechanics to separate tracks.
 - It uses multi-task learning (MTL) of a soft parameter-sharing scheme for joint-SELD.
@@ -69,7 +66,7 @@ sh scripts/download_dataset.sh
 
 ## Preprocessing
 
-Unfortunately, you need to preprocess the data and meta files. `.wav` files will be saved to `.h5` files. Meta files will also be converted to `.h5` files. After downloading the data, directly run
+It is needed to preprocess the data and meta files. `.wav` files will be saved to `.h5` files. Meta files will also be converted to `.h5` files. After downloading the data, directly run
 
 ```bash
 sh scripts/preproc.sh
@@ -147,7 +144,7 @@ sh scripts/evaluate.sh
 
 If you use the code, please consider citing the papers below
 
-[[1]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Fengyan An, Wenwu Wang, Mark D. Plumbley, "*An improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*", arXiv preprint, arXiv:2010.00140, October 2020](https://arxiv.org/abs/)
+[[1]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Fengyan An, Wenwu Wang, Mark D. Plumbley, "*An improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*", submitted for publication](https://arxiv.org/abs/)
 ```
 @article{
 }
