@@ -1,7 +1,4 @@
 # Event-Independent Networks for Polyphonic Sound Event Localization and Detection
-
-**In building. Codes will be available tomorrow.**
-
 Event-Independent Networks (EIN) for Polyphonic Sound Event Localization and Detection (SELD)
 
 from Centre for Vision, Speech and Signal Processing, University of Surrey.
@@ -27,7 +24,9 @@ from Centre for Vision, Speech and Signal Processing, University of Surrey.
 
 This is a Pytorch implementation of Event-Independent Networks for Polyphonic SELD. 
 
-Event-Independent Networks for Polyphonic SELD uses a trackwise output format and multi-task learning (MTL) of a soft parameter-sharing scheme. For more information, please read papers [*An improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*](https://arxiv.org/abs/2010.00140), and [*Event-Independent Network for Polyphonic Sound Event Localization and Detection*](https://arxiv.org/abs/2010.00140). [How to cite](#Citing) is here.
+Event-Independent Networks for Polyphonic SELD uses a trackwise output format and multi-task learning (MTL) of a soft parameter-sharing scheme. For more information, please read papers [here](#Citing).
+
+ <!-- [*An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*](https://arxiv.org/abs/2010.13092), and [*Event-Independent Network for Polyphonic Sound Event Localization and Detection*](https://arxiv.org/abs/2010.00140).  -->
 
 The features of this method are:
 - It uses a trackwise output format to detect different sound events of the same type but with different DoAs.
@@ -147,9 +146,13 @@ sh scripts/evaluate.sh
 
 If you use the code, please consider citing the papers below
 
-[[1]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Fengyan An, Wenwu Wang, Mark D. Plumbley, "*An improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*", submitted for publication](https://arxiv.org/abs/)
+[[1]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Fengyan An, Wenwu Wang, Mark D. Plumbley, "*An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*", submitted for publication](https://arxiv.org/abs/2010.13092)
 ```
 @article{
+  title={An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection},
+  author={Cao, Yin and Iqbal, Turab and Kong, Qiuqiang and Fengyan, An and Wang, Wenwu and Plumbley, Mark D},
+  journal={arXiv preprint arXiv:2010.13092},
+  year={2020}
 }
 ```
 
