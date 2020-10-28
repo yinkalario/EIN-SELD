@@ -14,7 +14,6 @@ from Centre for Vision, Speech and Signal Processing, University of Surrey.
   * [Training](#Training)
   * [Prediction](#Prediction)
   * [Evaluation](#Evaluation)
-- [Results](#Results)
 - [FAQs](#FAQs)
 - [Citing](#Citing)
 - [Reference](#Reference)
@@ -81,7 +80,8 @@ Preprocessing for meta files (labels) separate labels to different tracks, each 
 We uploaded the pre-trained model here. Download it and unzip it in the code folder (`EIN-SELD` folder) using
 
 ```bash
-
+wget 'https://zenodo.org/record/4147531/files/out_train.zip'
+unzip out_train.zip
 ```
 
 Then directly run
@@ -130,9 +130,6 @@ Evaluation evaluate the generated submission result. Directly run
 ```bash
 sh scripts/evaluate.sh
 ```
-
-## Results
-
 
 ## FAQs
 
