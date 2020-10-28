@@ -1,5 +1,5 @@
 # Event-Independent Networks for Polyphonic Sound Event Localization and Detection
-Event-Independent Networks (EIN) for Polyphonic Sound Event Localization and Detection (SELD)
+An Improved Event-Independent Network (EIN) for Polyphonic Sound Event Localization and Detection (SELD)
 
 from Centre for Vision, Speech and Signal Processing, University of Surrey.
 
