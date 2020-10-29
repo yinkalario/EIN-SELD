@@ -144,7 +144,7 @@ If you use the code, please consider citing the papers below
 
 [[1]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Fengyan An, Wenwu Wang, Mark D. Plumbley, "*An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*", submitted for publication](https://arxiv.org/abs/2010.13092)
 ```
-@article{
+@article{cao2020anevent,
   title={An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection},
   author={Cao, Yin and Iqbal, Turab and Kong, Qiuqiang and Fengyan, An and Wang, Wenwu and Plumbley, Mark D},
   journal={arXiv preprint arXiv:2010.13092},
