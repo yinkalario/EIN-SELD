@@ -14,6 +14,7 @@ from Centre for Vision, Speech and Signal Processing, University of Surrey.
   * [Training](#Training)
   * [Prediction](#Prediction)
   * [Evaluation](#Evaluation)
+- [Results](#Results)
 - [FAQs](#FAQs)
 - [Citing](#Citing)
 - [Reference](#Reference)
@@ -129,6 +130,10 @@ Evaluation evaluate the generated submission result. Directly run
 ```bash
 sh scripts/evaluate.sh
 ```
+
+## Results
+
+<img src="plots/two_stage_SEDL_t3.png" width="800">
 
 ## FAQs
 
