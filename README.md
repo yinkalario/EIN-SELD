@@ -81,7 +81,7 @@ Preprocessing for meta files (labels) separate labels to different tracks, each 
 We uploaded the pre-trained model here. Download it and unzip it in the code folder (`EIN-SELD` folder) using
 
 ```bash
-wget 'https://zenodo.org/record/4147531/files/out_train.zip' && unzip out_train.zip
+wget 'https://zenodo.org/record/4158864/files/out_train.zip' && unzip out_train.zip
 ```
 
 Then directly run
