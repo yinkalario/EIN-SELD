@@ -133,7 +133,7 @@ sh scripts/evaluate.sh
 
 ## Results
 
-<img src="figures/performance.png" width="600">
+<img src="figures/performance.png" width="800">
 
 ## FAQs
 
