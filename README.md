@@ -147,7 +147,7 @@ sh scripts/evaluate.sh
 
 If you use the code, please consider citing the papers below
 
-[[1]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Fengyan An, Wenwu Wang, Mark D. Plumbley, "*An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*", submitted for publication](https://arxiv.org/abs/2010.13092)
+[[1]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Fengyan An, Wenwu Wang, Mark D. Plumbley, "*An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*", submitted for publication](https://bit.ly/31XAimu)
 ```
 @article{cao2020anevent,
   title={An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection},
@@ -157,7 +157,7 @@ If you use the code, please consider citing the papers below
 }
 ```
 
-[[2]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Yue Zhong, Wenwu Wang, Mark D. Plumbley, "*Event-Independent Network for Polyphonic Sound Event Localization and Detection*", DCASE 2020 Workshop, November 2020](https://arxiv.org/abs/2010.00140)
+[[2]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Yue Zhong, Wenwu Wang, Mark D. Plumbley, "*Event-Independent Network for Polyphonic Sound Event Localization and Detection*", DCASE 2020 Workshop, November 2020](https://bit.ly/2Tz8oJ9)
 ```
 @article{cao2020event,
   title={Event-Independent Network for Polyphonic Sound Event Localization and Detection},
