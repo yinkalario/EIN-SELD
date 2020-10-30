@@ -31,7 +31,7 @@ Event-Independent Networks for Polyphonic SELD uses a trackwise output format an
 The features of this method are:
 - It uses a trackwise output format to detect different sound events of the same type but with different DoAs.
 - It uses a permutation-invaiant training (PIT) to solve the track permutation problem introducted by trackwise output format.
-- It uses multi-head self-attention (MHSA) mechanics to separate tracks.
+- It uses multi-head self-attention (MHSA) to separate tracks.
 - It uses multi-task learning (MTL) of a soft parameter-sharing scheme for joint-SELD.
 
 Currently, the code is availabel for [*TAU-NIGENS Spatial Sound Events 2020*](http://dcase.community/challenge2020/task-sound-event-localization-and-detection#download) dataset. Data augmentation methods are not included.
