@@ -2,7 +2,7 @@ method: ein_seld
 dataset: dcase2020task3
 workspace_dir: ./
 dataset_dir: ./_dataset/dataset_root
-hdf5_dir: /scratch/yc0010 # ./_hdf5
+hdf5_dir: ./_hdf5
 data:
   type: foa
   sample_rate: 24000
