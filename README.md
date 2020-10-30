@@ -133,7 +133,7 @@ sh scripts/evaluate.sh
 
 ## Results
 
-<img src="plots/two_stage_SEDL_t3.png" width="800">
+<img src="figures/performance_compare.png" width="600">
 
 ## FAQs
 
