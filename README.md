@@ -133,6 +133,8 @@ sh scripts/evaluate.sh
 
 ## Results
 
+It is notable that EINV2-DA is a single model with only channle-ratation and specaug data augmentation methods.
+
 <img src="figures/performance.png" width="800">
 
 ## FAQs
