@@ -234,28 +234,3 @@ def to_dcase_format(sed_labels, doa_labels):
                 output_dict[n_idx].append(event_doa)
     return output_dict
 
-def to_dcase_format_from2019(sed_labels, doa_labels):
-    """ Convert sed and doa labels from naive output format to dcase output format
-
-    Args:
-        sed_labels: SED labels, (num_frames, logits_events=14 (number of classes))
-        doa_labels: DOA labels, (num_frames, logits_degrees=2*14 (azi in radiance, ele in radiance))
-    Output:
-        output_dict: return a dict containing dcase output format
-            output_dict[frame-containing-events] = [[class_index_1, azi_1 in degree, ele_1 in degree], [class_index_2, azi_2 in degree, ele_2 in degree]]
-    """
-    num_frames, num_classes= sed_labels.shape
-
-    sed_labels = sed_labels.reshape(num_frames, num_classes)
-    doa_labels = doa_labels.reshape(num_frames, 2*num_classes)
-
-    output_dict = {}
-    for n_idx in range(num_frames):
-        class_indexes = np.where(sed_labels[n_idx] == 1.0)[0]
-        for class_idx in class_indexes:
-            event_doa = [class_idx, int(np.around(doa_labels[n_idx, class_idx] * 180 / np.pi)), \
-                int(np.around(doa_labels[n_idx, class_idx + num_classes] * 180 / np.pi))]
-            if n_idx not in output_dict:
-                output_dict[n_idx] = []
-            output_dict[n_idx].append(event_doa)
-    return output_dict
