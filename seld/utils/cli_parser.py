@@ -58,8 +58,6 @@ def parse_cli_overides():
     for key, value in args_dict.items():
         print(f"     {key:25s} -> {value}")
 
-    # cfg = load_config(args.config_file, default_dir='./configs/defaults')
-
     yaml = YAML()
     yaml.indent(mapping=4, sequence=6, offset=3)
     yaml.default_flow_style = False
