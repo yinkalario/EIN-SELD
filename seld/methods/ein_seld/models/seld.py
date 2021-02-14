@@ -8,7 +8,7 @@ from methods.utils.model_utilities import (DoubleConv, PositionalEncoding,
 class EINV2(nn.Module):
     def __init__(self, cfg, dataset):
         super().__init__()
-        self.pe_enable = False  # Ture | False
+        self.pe_enable = True  # Ture | False
 
         if cfg['data']['audio_feature'] == 'logmel&intensity':
             self.f_bins = cfg['data']['n_mels']
