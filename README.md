@@ -149,7 +149,7 @@ It is notable that EINV2-DA is a single model with plain VGGish architecture usi
 
 If you use the code, please consider citing the papers below
 
-[[1]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Fengyan An, Wenwu Wang, Mark D. Plumbley, "*An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*", submitted for publication](https://bit.ly/31XAimu)
+[[1]. Yin Cao, Turab Iqbal, Qiuqiang Kong, Fengyan An, Wenwu Wang, Mark D. Plumbley, "*An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection*", submitted for publication](http://bit.ly/2N8cF6w)
 ```
 @article{cao2020anevent,
   title={An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection},
