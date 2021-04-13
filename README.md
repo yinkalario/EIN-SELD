@@ -43,7 +43,7 @@ We provide two ways to setup the environment. Both are based on [Anaconda](https
 1. Use the provided `prepare_env.sh`. Note that you need to set the `anaconda_dir` in `prepare_env.sh` to your anaconda directory, then directly run
 
     ```bash
-    sh scripts/prepare_env.sh
+    bash scripts/prepare_env.sh
     ```
 
 2. Use the provided `environment.yml`. Note that you also need to set the `prefix` to your aimed env directory, then directly run
@@ -63,7 +63,7 @@ conda activate ein
 Download dataset is easy. Directly run
 
 ```bash
-sh scripts/download_dataset.sh
+bash scripts/download_dataset.sh
 ```
 
 ## Preprocessing
@@ -71,7 +71,7 @@ sh scripts/download_dataset.sh
 It is needed to preprocess the data and meta files. `.wav` files will be saved to `.h5` files. Meta files will also be converted to `.h5` files. After downloading the data, directly run
 
 ```bash
-sh scripts/preproc.sh
+bash scripts/preproc.sh
 ```
 
 Preprocessing for meta files (labels) separate labels to different tracks, each with up to one event and a corresponding DoA. The same event is consistently put in the same track. For frame-level permutation-invariant training, this may not be necessary, but for chunk-level PIT or no PIT, consistently arrange the same event in the same track is reasonable.
@@ -87,7 +87,7 @@ wget 'https://zenodo.org/record/4158864/files/out_train.zip' && unzip out_train.
 Then directly run
 
 ```bash
-sh scripts/predict.sh && sh scripts/evaluate.sh
+bash scripts/predict.sh && sh scripts/evaluate.sh
 ```
 
 ## Usage
@@ -99,7 +99,7 @@ Hyper-parameters are stored in `./configs/ein_seld/seld.yaml`. You can change so
 To train a model yourself, setup `./configs/ein_seld/seld.yaml` and directly run
 
 ```bash
-sh scripts/train.sh
+bash scripts/train.sh
 ```
 
 `train_fold` and `valid_fold` in `./configs/ein_seld/seld.yaml` means using what folds to train and validate. Note that `valid_fold` can be `None` which means no validation is needed, and this is usually used for training using fold 1-6.
@@ -117,7 +117,7 @@ You can consider to add `--read_into_mem` argument in `train.sh` to pre-load all
 Prediction predicts resutls and save to `./out_infer` folder. The saved results is the submission result for DCASE challenge. Directly run
 
 ```bash
-sh scripts/predict.sh
+bash scripts/predict.sh
 ```
 
 Prediction predicts results on `testset_type` set, which can be `dev` or `eval`. If it is `dev`, `test_fold` cannot be `None`.
@@ -128,7 +128,7 @@ Prediction predicts results on `testset_type` set, which can be `dev` or `eval`.
 Evaluation evaluate the generated submission result. Directly run
 
 ```bash
-sh scripts/evaluate.sh
+bash scripts/evaluate.sh
 ```
 
 ## Results
