@@ -117,7 +117,7 @@ class EINV2(nn.Module):
         if self.pe_enable:
             x_sed = self.pe(x_sed)
         if self.pe_enable:
-            x_doa = self.pe(x_sed)
+            x_doa = self.pe(x_doa)
         x_sed = x_sed.permute(2, 0, 1) # (T, N, C)
         x_doa = x_doa.permute(2, 0, 1) # (T, N, C)
 
