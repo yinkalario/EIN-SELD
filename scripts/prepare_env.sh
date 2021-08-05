@@ -10,7 +10,7 @@ conda create -n ein python=3.7 -y
 conda activate ein
 
 conda install -c anaconda pandas h5py ipython pyyaml pylint -y
-conda install pytorch torchvision cudatoolkit=10.2 torchaudio -c pytorch -y
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch-lts -y
 conda install -c conda-forge librosa pudb tqdm ruamel.yaml -y
 conda install -c omnia termcolor -y
 pip install tensorboard
