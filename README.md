@@ -1,3 +1,5 @@
+
+
 # An Improved Event-Independent Network for Polyphonic Sound Event Localization and Detection
 An Improved Event-Independent Network (EIN) for Polyphonic Sound Event Localization and Detection (SELD)
 
@@ -143,7 +145,7 @@ It is notable that EINV2-DA is a single model with plain VGGish architecture usi
 
 2. Currently the `pin_memory` can only be set to `True`. For more information, please check [Pytorch Doc](https://pytorch.org/docs/stable/data.html#memory-pinning) and [Nvidia Developer Blog](https://developer.nvidia.com/blog/how-optimize-data-transfers-cuda-cc/).
 
-3. After downloading, you can delete `downloaded_packages` folder to save some space.
+3. After downloading, you can delete `_dataset/downloaded_packages` folder to save some space.
 
 ## Citing
 
@@ -178,4 +180,3 @@ If you use the code, please consider citing the papers below
 3. Sharath Adavanne, Archontis Politis, Joonas Nikunen, and Tuomas Virtanen. Sound event localization and detection of overlapping sources using convolutional recurrent neural networks. IEEE Journal of Selected Topics in Signal Processing, 13(1):34–48, March 2018. [URL](https://ieeexplore.ieee.org/abstract/document/8567942)
 
 4. https://github.com/yinkalario/DCASE2019-TASK3
-
